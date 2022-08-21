@@ -9,7 +9,9 @@
 Aptos AIT 3 testnetine dünya genelinden 225 kişi seçilecek.Her bir katılımcı 800 aptos token kazanacak. Daha iyi performans gösteren bazı katılımcılar ek 200 aptos token daha kazanacak.
 
 * [Daha fazla detay için medium makalesi](https://aptoslabs.medium.com/welcome-to-aptos-incentivized-testnet-3-9d7ce888205c)
-
+## !NOT: Daha önce hiç node kurmadıysanız; sizler için hazırladığımız rehberleri takip ederek buradan devam edebilirsiniz;
+### 1. [Yeni Başladım-1](https://github.com/chainlabs1/Yeni-Basladim-1)
+### 2. [Yeni Başladım-2](https://github.com/chainlabs1/Yeni-Basladim-2)
 
 # Sistem gereksinimleri; UBUNTU 20.04 Linux Sunucu, Özellikleri;
 ```
