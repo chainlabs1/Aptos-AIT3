@@ -23,7 +23,7 @@ Disk: 300GB ssd
 
 ## Kurulum için bu kodu terminale eklemeniz yeterlidir.
 ```
-wget https://raw.githubusercontent.com/chainlabs1/Aptos-AIT3/main/aptos.sh -O aptos.sh && chmod +x aptos.sh && ./aptos.sh
+wget -qO aptos.sh https://raw.githubusercontent.com/chainlabs1/Aptos-AIT3/main/aptos.sh  && chmod +x aptos.sh && ./aptos.sh
 ```
 
 ## Ardından değişkenleri sisteme kaydetmek için bu kod ile devam ediyoruz.
