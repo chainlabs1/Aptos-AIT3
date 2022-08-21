@@ -97,7 +97,7 @@ info () {
     echo -e ''
 }
 
-PS3="What do you want?: "
+PS3="Ne yapmak istiyorsunuz?: "
 select opt in Install Update Additional quit; 
 do
 
