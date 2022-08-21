@@ -21,11 +21,30 @@ Disk: 300GB ssd
 
 # Node kurulumu
 
-## root yetkisi kazanırız.
+## Kurulum için bu kodu terminale eklemeniz yeterlidir.
 ```
 wget https://raw.githubusercontent.com/chainlabs1/Aptos-AIT3/main/aptos.sh -O aptos.sh && chmod +x aptos.sh && ./aptos.sh
 ```
 
+## Ardından değişkenleri sisteme kaydetmek için bu kod ile devam ediyoruz.
+```
+source $HOME/.bash_profile
+```
+## Ayrıca bazı portları açmamız gerekiyor. Bunları açalım.
+```
+sudo ufw enable
+```
+```
+ufw allow 80
+ufw allow 8080
+```
+
+## NODE REGISTRATION kısmında gireceğimiz bilgileri öğreniyoruz.
+```
+cat ~/$WORKSPACE/keys/public-keys.yaml
+```
+
+##  NOT: NODE REGISTRATION kısmında API PORT Kısmına 80 yazıyoruz.
 
 # Testnet registration
 ## Tüm işlemler doğruysa (aptoslabs)[https://aptoslabs.com/community] sitesine giderek GET STARTED diyoruz.
@@ -50,11 +69,6 @@ wget https://raw.githubusercontent.com/chainlabs1/Aptos-AIT3/main/aptos.sh -O ap
 ## Petra Aptos wallet eklentilerde gözüküyor. Ardından cüzdan oluşturuyoruz. [aptoslabs](https://aptoslabs.com/it3) sitesine giderek cüzdanımızı bağlıyoruz. 
 ![image](https://user-images.githubusercontent.com/73015593/185758968-1553f391-6703-4be2-b63a-00b48af88de7.png)
 
-##  NODE REGISTRATION kısmında gireceğimiz bilgileri öğreniyoruz. (NodeName kısmına kendi klasör ismimizi giriyoruz. API PORT Kısmına 80 yazıyoruz.)
-```
-cat $HOME/aptoss/NodeName/operator.yaml
-```
-<img width="679" alt="walet" src="https://user-images.githubusercontent.com/73015593/185760465-ef7f2257-2164-41de-a427-e8729caf9e54.png">
 
 
 
