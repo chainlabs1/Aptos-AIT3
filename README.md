@@ -11,7 +11,7 @@ Aptos AIT 3 testnetine dünya genelinden 225 kişi seçilecek.Her bir katılımc
 * [Daha fazla detay için medium makalesi](https://aptoslabs.medium.com/welcome-to-aptos-incentivized-testnet-3-9d7ce888205c)
 
 
-# Sistem gereksinimleri
+# Sistem gereksinimleri; UBUNTU 20.04 Linux Sunucu, Özellikleri;
 ```
 CPU: 8 cores, 16 threads
 2.8GHz, or faster
